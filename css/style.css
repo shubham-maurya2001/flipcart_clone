@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+nav {
+    width: 90vw;
+    padding-left: 13.5vw;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    background: var(--main-bg-color);
+    overflow: hidden;
+}
+
+/* nav ul {
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+} */
+
+/* nav ul li {
+    list-style: none;
+    padding: 0px 20px;
+} */
+
+/* nav ul li:hover {
+    color: rgb(132, 164, 177);
+    text-decoration: underline;
+    font-weight: bold;
+} */
+
+/* nav ul li a {
+    color: white;
+    text-decoration: none;
+} */
+
+.logo {
+    display: inline-block;
+    align-items: first baseline;
+}
+
+.logo img {
+
+    width: 75px;
+    height: 3vh;
+    padding: 10px 0px 0px 0px;
+}
+
+.explore {
+    color: white;
+    display: block;
+    font-size: 10px;
+    font-style: italic;
+    text-decoration: none;
+    align-items: first baseline;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.explore img {
+    width: 8px;
+    height: 8px;
+    padding: 0px;
+}
+
+.explore:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.plus {
+    color: rgb(255, 255, 0);
+}
+
+.plus:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.search {
+     
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.search input {
+    width: 35vw;
+    height: 5vh;
+    border-radius: 1px;
+    padding-left: 12px;
+}
+
+.btn {
+    margin-left: 9px;
+    background: var(--main-bg-color);
+    border: 2px solid wheat;
+    border-radius: 8px;
+    padding: 0px 5px;
+}
+
+.btn:hover {
+    font-weight: bold;
+    z-index: 3;
+    color: wheat;
+}
+
+
+.container {
+    background-color: #fff;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 80vw;
+    height: 35vh;
+    padding: 1vh 10vw;
+}
+
+.card {
+    
+    margin: 0px 27px;
+    height: 250px;
+}
+.card .item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card .item .card-item{
+     
+    display: inline-flex; 
+    flex-direction: column;
+}
+ 
+.my-2{
+     margin: 10px 0px;
+}
+.text-centre{
+    width: 140px;
+    text-align: center;
+    font-style: italic;
+}
+.my-1{
+    margin: 2px 0px;
+}
+ 
+
+
+footer {
+    height: 6vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
